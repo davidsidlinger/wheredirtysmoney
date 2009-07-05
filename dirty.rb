@@ -6,7 +6,7 @@ require "sass"
 set :haml, {:format => :html5}
 
 get "/" do
-  @diff = Date.today() - Date.new(2004, 11, 13)
+  @diff = Date.today() - Date.new(1976, 11, 13)
   haml :index
 end
 
