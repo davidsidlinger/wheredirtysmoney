@@ -2,6 +2,7 @@ require "rubygems"
 require "sinatra"
 require "haml"
 require "sass"
+require "jcode"
 
 set :haml, {:format => :html5}
 
